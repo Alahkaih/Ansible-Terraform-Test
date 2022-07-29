@@ -1,0 +1,3 @@
+terraform output -json | jq -r ".droplet_ip.value[]" > inventory.txt
+
+ssh -i .ssh/Terraform root@<Ip_address>

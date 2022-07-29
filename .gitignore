@@ -1,0 +1,5 @@
+DigitalOceanKey.txt
+Terraform/.*
+Terraform/ansible_inventory.tf
+Terraform/terraform.tf*
+inventory.txt
