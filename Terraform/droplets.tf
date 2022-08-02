@@ -16,4 +16,10 @@ resource "digitalocean_droplet" "droplet" {
   #     private_key = file(var.pvt_key)
   #     timeout = "2m"
   #   }
+
+  #   provisioner "remote-exec" {
+  #   inline = [
+  #     "adduser --disabled-password alahkaih",
+  #   ]
+  # }
 }
